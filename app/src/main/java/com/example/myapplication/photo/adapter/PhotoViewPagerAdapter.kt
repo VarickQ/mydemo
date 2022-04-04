@@ -1,4 +1,4 @@
-package com.example.myapplication.photo
+package com.example.myapplication.photo.adapter
 
 import android.util.Log
 import android.view.View

@@ -21,6 +21,9 @@
             android:name=".activities.PhotoActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
+        <activity
+            android:name=".activities.Photo2Activity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

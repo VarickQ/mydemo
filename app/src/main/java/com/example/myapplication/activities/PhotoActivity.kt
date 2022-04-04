@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityPhotoBinding
 import com.example.myapplication.photo.PhotoViewController
-import com.example.myapplication.photo.PhotoViewPagerAdapter
+import com.example.myapplication.photo.adapter.PhotoViewPagerAdapter
 
 class PhotoActivity : AppCompatActivity() {
     lateinit var binding: ActivityPhotoBinding
@@ -26,7 +26,11 @@ class PhotoActivity : AppCompatActivity() {
         data.add(R.mipmap.test_img_1)
         data.add(R.mipmap.test_img_2)
         data.add(R.mipmap.test_img_3)
-        binding.photoViewPager.adapter = PhotoViewPagerAdapter(data, photoViewController)
+        binding.photoViewPager.adapter =
+            PhotoViewPagerAdapter(
+                data,
+                photoViewController
+            )
         binding.photoViewPager.setOnInterceptTouchListener(photoViewController)
         binding.photoViewPager.addOnPageChangeListener(photoViewController)
     }
