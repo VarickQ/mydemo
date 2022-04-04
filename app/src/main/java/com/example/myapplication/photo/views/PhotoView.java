@@ -48,6 +48,7 @@ import com.example.myapplication.photo.interfaces.HorizontallyScrollable;
 public class PhotoView extends View implements OnGestureListener,
         OnDoubleTapListener, ScaleGestureDetector.OnScaleGestureListener,
         HorizontallyScrollable {
+    public static final String TAG = "PhotoView";
 
     public static final int TRANSLATE_NONE = 0;
     public static final int TRANSLATE_X_ONLY = 1;
