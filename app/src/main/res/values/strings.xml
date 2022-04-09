@@ -8,4 +8,7 @@
     <string name="failed">Couldn\'t load image</string>
     <!-- Title and subtitle combined into a single string -->
     <string name="titles"><xliff:g id="title">%s</xliff:g>, <xliff:g id="subtitle">%s</xliff:g></string>
+
+    <string name="start">开始</string>
+    <string name="doing">进行中…</string>
 </resources>
