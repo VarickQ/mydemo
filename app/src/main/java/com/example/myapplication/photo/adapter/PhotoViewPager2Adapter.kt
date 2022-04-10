@@ -27,6 +27,8 @@ class PhotoViewPager2Adapter(private val mContext: Context, private val data: Ar
             setMaxInitialScale(1f)
             setFullScreen(true, false)
             enableImageTransforms(true)
+            setFirst(position == 0)
+            setLast(position == itemCount - 1)
             bindDrawable(ContextCompat.getDrawable(mContext, data[position]))
         }
     }
