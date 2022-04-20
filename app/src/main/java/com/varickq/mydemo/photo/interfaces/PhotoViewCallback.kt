@@ -1,4 +1,4 @@
-package com.example.myapplication.photo.interfaces
+package com.varickq.mydemo.photo.interfaces
 
 interface PhotoViewCallback {
 

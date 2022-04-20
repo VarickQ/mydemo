@@ -1,4 +1,4 @@
-package com.example.myapplication.photo.interfaces
+package com.varickq.mydemo.photo.interfaces
 
 /**
  * Interface for components that are internally scrollable left-to-right.

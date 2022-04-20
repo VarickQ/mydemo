@@ -1,11 +1,11 @@
-package com.example.myapplication.photo.adapter
+package com.varickq.mydemo.photo.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.databinding.ItemPhotoViewHolderBinding
+import com.varickq.mydemo.databinding.ItemPhotoViewHolderBinding
 
 class PhotoViewPager2Adapter(private val mContext: Context, private val data: ArrayList<Int>) :
     RecyclerView.Adapter<PhotoViewPager2Adapter.ItemHolder>() {

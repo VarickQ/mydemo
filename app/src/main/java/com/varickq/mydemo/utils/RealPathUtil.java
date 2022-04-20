@@ -1,4 +1,4 @@
-package com.example.myapplication.utils;
+package com.varickq.mydemo.utils;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;

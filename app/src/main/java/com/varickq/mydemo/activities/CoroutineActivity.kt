@@ -1,12 +1,12 @@
-package com.example.myapplication.activities
+package com.varickq.mydemo.activities
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityCoroutineBinding
+import com.varickq.mydemo.R
+import com.varickq.mydemo.databinding.ActivityCoroutineBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

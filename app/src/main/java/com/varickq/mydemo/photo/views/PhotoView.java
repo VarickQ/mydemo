@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.example.myapplication.photo.views;
+package com.varickq.mydemo.photo.views;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -39,8 +39,8 @@ import android.view.ViewConfiguration;
 import androidx.core.view.GestureDetectorCompat;
 import androidx.core.view.ScaleGestureDetectorCompat;
 
-import com.example.myapplication.R;
-import com.example.myapplication.photo.interfaces.HorizontallyScrollable;
+import com.varickq.mydemo.R;
+import com.varickq.mydemo.photo.interfaces.HorizontallyScrollable;
 
 /**
  * Layout for the photo list view header.

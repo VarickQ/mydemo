@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.example.myapplication.photo;
+package com.varickq.mydemo.photo;
 
 import android.content.Context;
 import android.util.AttributeSet;

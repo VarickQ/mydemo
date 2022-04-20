@@ -1,4 +1,4 @@
-package com.example.myapplication.photo.views
+package com.varickq.mydemo.photo.views
 
 import android.content.Context
 import android.util.AttributeSet

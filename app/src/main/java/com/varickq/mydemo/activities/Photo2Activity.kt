@@ -1,12 +1,12 @@
-package com.example.myapplication.activities
+package com.varickq.mydemo.activities
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
-import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityPhoto2Binding
-import com.example.myapplication.photo.adapter.PhotoViewPager2Adapter
+import com.varickq.mydemo.R
+import com.varickq.mydemo.databinding.ActivityPhoto2Binding
+import com.varickq.mydemo.photo.adapter.PhotoViewPager2Adapter
 
 class Photo2Activity : AppCompatActivity() {
 

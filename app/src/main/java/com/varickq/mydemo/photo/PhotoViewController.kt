@@ -1,10 +1,10 @@
-package com.example.myapplication.photo
+package com.varickq.mydemo.photo
 
 import android.util.Log
 import androidx.viewpager.widget.ViewPager
-import com.example.myapplication.photo.interfaces.OnScreenListener
-import com.example.myapplication.photo.interfaces.PhotoViewCallback
-import com.example.myapplication.photo.views.PhotoView
+import com.varickq.mydemo.photo.interfaces.OnScreenListener
+import com.varickq.mydemo.photo.interfaces.PhotoViewCallback
+import com.varickq.mydemo.photo.views.PhotoView
 import java.util.*
 
 class PhotoViewController : PhotoViewPager.OnInterceptTouchListener, PhotoViewCallback,

@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.varickq.mydemo
 
 import android.Manifest
 import android.content.Intent
@@ -8,10 +8,10 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.example.myapplication.activities.CoroutineActivity
-import com.example.myapplication.activities.Photo2Activity
-import com.example.myapplication.activities.PhotoActivity
-import com.example.myapplication.databinding.ActivityMainBinding
+import com.varickq.mydemo.activities.CoroutineActivity
+import com.varickq.mydemo.activities.Photo2Activity
+import com.varickq.mydemo.activities.PhotoActivity
+import com.varickq.mydemo.databinding.ActivityMainBinding
 import com.zhihu.matisse.Matisse
 import com.zhihu.matisse.MimeType
 import com.zhihu.matisse.engine.impl.GlideEngine

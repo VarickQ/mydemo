@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.myapplication.photo.views.PhotoView2
+    <com.varickq.mydemo.photo.views.PhotoView2
         android:id="@+id/photo_view2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

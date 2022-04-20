@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">My Application</string>
+    <string name="app_name">MyDemo</string>
 
     <!-- Photo view sub-title for current photo position [CHAR LIMIT=10] -->
     <string name="photo_view_count"><xliff:g id="current_pos">%d</xliff:g> of <xliff:g id="count">%d</xliff:g></string>

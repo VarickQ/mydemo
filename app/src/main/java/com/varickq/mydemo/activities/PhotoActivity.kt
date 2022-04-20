@@ -1,12 +1,12 @@
-package com.example.myapplication.activities
+package com.varickq.mydemo.activities
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityPhotoBinding
-import com.example.myapplication.photo.PhotoViewController
-import com.example.myapplication.photo.adapter.PhotoViewPagerAdapter
+import com.varickq.mydemo.R
+import com.varickq.mydemo.databinding.ActivityPhotoBinding
+import com.varickq.mydemo.photo.PhotoViewController
+import com.varickq.mydemo.photo.adapter.PhotoViewPagerAdapter
 
 class PhotoActivity : AppCompatActivity() {
     lateinit var binding: ActivityPhotoBinding

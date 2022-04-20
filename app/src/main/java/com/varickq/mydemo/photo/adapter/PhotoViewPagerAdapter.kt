@@ -1,13 +1,13 @@
-package com.example.myapplication.photo.adapter
+package com.varickq.mydemo.photo.adapter
 
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.PagerAdapter
-import com.example.myapplication.photo.interfaces.OnScreenListener
-import com.example.myapplication.photo.interfaces.PhotoViewCallback
-import com.example.myapplication.photo.views.PhotoView
+import com.varickq.mydemo.photo.interfaces.OnScreenListener
+import com.varickq.mydemo.photo.interfaces.PhotoViewCallback
+import com.varickq.mydemo.photo.views.PhotoView
 
 class PhotoViewPagerAdapter(
     private val data: ArrayList<Int>,
