@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/image_picker_page.dart';
+import 'package:flutter_demo/permission_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -126,6 +127,18 @@ class _MyHomePageState extends State<MyHomePage> {
                             )));
               },
               child: const Icon(Icons.image),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 16),
+            child: FloatingActionButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const PermissionHandlerWidget()));
+              },
+              child: const Icon(Icons.location_on),
             ),
           )
         ],
